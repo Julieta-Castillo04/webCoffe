@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 3 - Etiqueta semanticas</title>
+    <link rel="stylesheet" href="./estilo/estilo.css"> <!--Vincula nuestro archivo de estilo-->
+</head>
+
+<body>
+    <!--Encabezado o inicio de la web-->
+    <header>
+        <h1>Coffe 🙌</h1>
+        <!-- Navegacion -->
+        <nav class="navegacion">
+            <a class="link" href="#Productos">Productos</a>
+            <a class="link" href="#">Contactos</a>
+            <a class="link" href="#Ubicacion">Ubicación</a>
+        </nav>
+    </header>
+    <!--Contenido de la web-->
+    <main>
+        <section>
+            <!--Agregando imagenes-->
+            <img src="./img/cafe2.png"
+                alt="banner granos de cafe" width="100%">
+        </section>
+
+        <section>
+            <h2 id="Productos">Nuestro productos</h2>
+            <div class="contenedorProducto">
+                <!--Contenedor-->
+                <div class="producto">
+
+                    <img src="./img/cafetera.jpg" alt="imagen de producto" width="100">
+                    <h3>Cafetera Clasica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facilis cum, et praesentium
+                        itaque quasi explicabo placeat beatae nostrum asperiores modi molestias voluptate libero ducimus
+                        sunt inventore, officia voluptates nulla.</p>
+
+                    <button class="botonVer">Ver!</button>
+                </div>
+
+                <div class="producto">
+                    <img src="./img/cafetera.jpg" alt="imagen de producto" width="100">
+                    <h3>Cafetera Clasica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facilis cum, et praesentium
+                        itaque quasi explicabo placeat beatae nostrum asperiores modi molestias voluptate libero ducimus
+                        sunt inventore, officia voluptates nulla.</p>
+                    <button class="botonVer">Ver!</button>
+                </div>
+
+                <div class="producto">
+                    <img src="./img/cafetera.jpg" alt="imagen de producto" width="100">
+                    <h3>Cafetera Clasica</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore facilis cum, et praesentium
+                        itaque quasi explicabo placeat beatae nostrum asperiores modi molestias voluptate libero ducimus
+                        sunt inventore, officia voluptates nulla.</p>
+                    <button class="botonVer">Ver!</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/cafetera.jpg" alt="" width="200" height="250">
+                <img src="./img/cafe.jpeg" alt="" width="200">
+            </div>
+        </section>
+
+        <section class="contenedorUbicacion">
+            <div class="divInfoUbicacion"> <!--Contenedor que agrupa los texto (h2 y p) -->
+                <h2 id="Ubicacion">Ubicación del lugar</h2>
+                <p>
+                    <span>lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    Mollitia sequi maiores ab quas totam atque nostrum qui molestias rem temporibus,
+                    <span class="resaltado">placeat asperiores aliquid eius cum nihil. Nobis dolores quaerat
+                        sunt.</span>
+                </p>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2307.8730687311386!2d-58.39270221153733!3d-34.58291126361212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbbe57694af1%3A0x3be62989f4e4adcf!2sFacultad%20de%20Derecho%20(UBA)!5e0!3m2!1ses!2sar!4v1776379008772!5m2!1ses!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </section>
+    </main>
+    <!--Final de la web-->
+    <footer>
+        <p>Desarrollado por Julieta Castillo</p>
+        <div class="redesSociales">
+            <a href="https://www.instagram.com/?hl=es" target="_blank">
+                <img src="./img/instagram.png" alt="Logo de instagram" width="32">
+            </a> 
+            <a href="https://www.youtube.com/" target="_blank">
+                <img src="./img/youtube.png" alt="Logo de youtube" width="32">
+            </a>
+            <a href="https://www.facebook.com/?locale=es_LA">
+                <img src="./img/facebook.png" alt="Logo facebook" width="32">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

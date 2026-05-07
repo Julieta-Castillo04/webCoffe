@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    /*Propiedades: valor*/
+    background-color: #EDE9E6; /*Color al fondo*/
+    color: #5C4F4A; /*Color a la letra*/
+    font-family: Arial, Helvetica, sans-serif; /*fuente la letra*/
+
+    font-family: "DynaPuff", system-ui;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+
+    margin: 0;
+}
+
+header{
+    background-color: #C9996B; 
+    position: sticky;
+    top: 0;
+    padding-bottom: 10px;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+h2{
+    text-align: center;
+}
+
+span{
+    background-color: orange;
+}
+
+.resaltado{
+    background-color: red;
+}
+
+.producto{
+    background-color: #5C766D;
+    width: 300px; /*Modificamos el ancho*/
+    color: #c7bdbd;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    font-size: 14px; /*cambia el tamaño de la letra*/
+    border-radius: 20px;
+    /*Clase 5*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self:end;
+    /*Propiedades de sombra*/
+    box-shadow: -2px 1px 35px -1px rgba(0,0,0,1);
+    -webkit-box-shadow: -2px 1px 35px -1px rgba(0,0,0,1);
+    -moz-box-shadow: -2px 1px 35px -1px rgba(0,0,0,1);
+}
+.centrando{
+    /*Clase 5*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botonVer{
+    background-color: #266a53;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    border: rgb(0, 0, 0) solid 2px;
+}
+
+.contenedorProducto{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenedorUbicacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divInfoUbicacion{
+    width: 500px;
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link{
+    background-color: #5C4F4A;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+}
+
+footer{
+    background-color: #5C4F4A;
+    color: white;
+    /*Propiedades para centrar en footer*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.redesSociales{
+    /*Propiedades para separar los logos*/
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding-bottom: 20px;
+}
+
+@media(max-width: 768px){
+    .contenedorProducto{
+        flex-wrap: wrap; /*Hace que los elementos bajen*/
+    }
+}
+
+@media(max-width: 567px){
+    .contenedorUbicacion{
+        flex-wrap: wrap; /*Hace que los elementos bajen*/
+    }
+}
